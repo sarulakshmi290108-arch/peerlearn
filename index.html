@@ -1,0 +1,143 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PeerLearn - Find a Tutor</title>
+
+    <!-- Connect CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>PeerLearn</h1>
+        <p>Learn from students who have mastered the subject.</p>
+
+        <nav>
+            <a href="#tutors">Find Tutors</a>
+            <a href="#booking">Book a Session</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Tutor Section -->
+        <section id="tutors">
+            <h2>Meet Our Tutors</h2>
+
+            <!-- Mentor 1: Mathematics -->
+            <article>
+                <h3>Saru Lakshmi V</h3>
+
+                <p><strong>Subject:</strong> Mathematics</p>
+                <p><strong>Rate:</strong> ₹300/hour</p>
+                <p>Calculus and algebra made simple.</p>
+
+                <h4>Mathematics Learning Video</h4>
+                <video controls width="100%">
+                    <source
+                        src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+                        type="video/mp4">
+                    Your browser does not support HTML video.
+                </video>
+            </article>
+
+            <!-- Mentor 2: Physics -->
+            <article>
+                <h3>Anika Khanum Y</h3>
+
+                <p><strong>Subject:</strong> Physics</p>
+                <p><strong>Rate:</strong> ₹350/hour</p>
+                <p>Mechanics and electricity with exam-focused sessions.</p>
+
+                <h4>Physics Learning Video</h4>
+                <video controls width="100%">
+                    <source
+                        src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+                        type="video/mp4">
+                    Your browser does not support HTML video.
+                </video>
+            </article>
+
+            <!-- Mentor 3: Chemistry -->
+            <article>
+                <h3>Tasneem M</h3>
+
+                <p><strong>Subject:</strong> Chemistry</p>
+                <p><strong>Rate:</strong> ₹340/hour</p>
+                <p>Organic chemistry and laboratory preparation.</p>
+
+                <h4>Chemistry Learning Video</h4>
+                <video controls width="100%">
+                    <source
+                        src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+                        type="video/mp4">
+                    Your browser does not support HTML video.
+                </video>
+            </article>
+
+        </section>
+
+        <!-- Booking Section -->
+        <section id="booking">
+            <h2>Book a Session</h2>
+
+            <form>
+                <label for="name">Your Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required>
+
+                <label for="email">Email Address</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required>
+
+                <label for="subject">Subject</label>
+                <select id="subject" name="subject">
+                    <option value="mathematics">Mathematics</option>
+                    <option value="physics">Physics</option>
+                    <option value="chemistry">Chemistry</option>
+                </select>
+
+                <label for="date">Preferred Date</label>
+                <input
+                    type="date"
+                    id="date"
+                    name="date">
+
+                <label for="message">Message</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="4"
+                    placeholder="Tell us what you need help with..."></textarea>
+
+                <button type="submit">Request Session</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <p>&copy; 2026 PeerLearn</p>
+        <p>Contact: hello@peerlearn.example</p>
+    </footer>
+
+</body>
+
+</html>
+```
