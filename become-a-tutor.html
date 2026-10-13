@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Become a Tutor | Peer Tutoring Marketplace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Peer Tutoring Marketplace</h1>
+        <nav aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="tutor.html">Tutor Profile</a>
+            <a href="become-a-tutor.html">Become a Tutor</a>
+        </nav>
+    </header>
+
+    <main>
+        <section aria-labelledby="join-heading">
+            <h2 id="join-heading">Become a Tutor</h2>
+            <p>Share your knowledge, help students learn, and become part of our peer tutoring community.</p>
+
+            <h3>Why teach with us?</h3>
+            <ul>
+                <li>Help students understand difficult subjects.</li>
+                <li>Share your skills and knowledge.</li>
+                <li>Build your teaching experience.</li>
+                <li>Choose the subjects you are confident teaching.</li>
+            </ul>
+        </section>
+
+        <section aria-labelledby="registration-heading">
+            <h2 id="registration-heading">Tutor Registration Form</h2>
+
+            <form action="#" method="get">
+                <div>
+                    <label for="tutor-name">Full Name:</label>
+                    <input type="text" id="tutor-name" name="tutor-name" required>
+                </div>
+
+                <div>
+                    <label for="tutor-email">Email Address:</label>
+                    <input type="email" id="tutor-email" name="tutor-email" required>
+                </div>
+
+                <div>
+                    <label for="tutor-subject">Subject You Want to Teach:</label>
+                    <input type="text" id="tutor-subject" name="tutor-subject" required>
+                </div>
+
+                <div>
+                    <label for="tutor-experience">Teaching Experience:</label>
+                    <textarea id="tutor-experience" name="tutor-experience" rows="4" required></textarea>
+                </div>
+
+                <div>
+                    <label for="tutor-rate">Hourly Rate (₹):</label>
+                    <input type="number" id="tutor-rate" name="tutor-rate" min="1" required>
+                </div>
+
+                <button type="submit">Register as a Tutor</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Peer Tutoring Marketplace. All rights reserved.</p>
+    </footer>
+</body>
+</html>
